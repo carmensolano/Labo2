@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- comentario -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.uca.labo2.MainActivity"
+    android:layout_margin="4dp"
+    android:orientation="vertical"
+    android:gravity="center"
+
+
+    >
+
+    <TextView
+        android:id="@+id/sndTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_margin="4dp"
+        android:textSize= "26sp"
+         />
+    <TextView
+        android:id="@+id/fstTextView"
+        android:text="Holi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:textSize= "26sp"
+        />
+
+    <Button
+        android:id="@+id/changeTextButton"
+        android:background="@color/colorPrimary"
+        android:text="Press Me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:onClick="changeText"
+        />
+
+</LinearLayout>
